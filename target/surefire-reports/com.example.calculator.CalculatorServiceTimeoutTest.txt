@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.calculator.CalculatorServiceTimeoutTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.038 s <<< FAILURE! - in com.example.calculator.CalculatorServiceTimeoutTest
+testTimeoutHandling  Time elapsed: 2.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 1000 ms by 1010 ms
+	at com.example.calculator.CalculatorServiceTimeoutTest.testTimeoutHandling(CalculatorServiceTimeoutTest.java:18)
+
+testTimeoutHandlingAdd  Time elapsed: 2.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 1000 ms by 1014 ms
+	at com.example.calculator.CalculatorServiceTimeoutTest.testTimeoutHandlingAdd(CalculatorServiceTimeoutTest.java:54)
+

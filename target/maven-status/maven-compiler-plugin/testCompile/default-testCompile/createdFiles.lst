@@ -1,0 +1,5 @@
+com\example\calculator\CalculatorServiceAssumptionTest.class
+com\example\calculator\CalculatorServiceTimeoutTest.class
+com\example\calculator\CalculatorServiceStandardTest.class
+com\example\calculator\CalculatorServiceParameterisedTest.class
+com\example\calculator\CalculatorServiceExceptionTest.class

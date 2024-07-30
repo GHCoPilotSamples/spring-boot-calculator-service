@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.calculator.CalculatorServiceParameterisedTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.09 s <<< FAILURE! - in com.example.calculator.CalculatorServiceParameterisedTest
+testDivide{int, int, int}[2]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <0.5>
+	at com.example.calculator.CalculatorServiceParameterisedTest.testDivide(CalculatorServiceParameterisedTest.java:58)
+

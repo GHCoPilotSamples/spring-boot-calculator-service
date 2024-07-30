@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.example.calculator.CalculatorServiceExceptionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.example.calculator.CalculatorServiceExceptionTest
+testInvalidFibonacciSeries  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.RuntimeException>
+	at com.example.calculator.CalculatorServiceExceptionTest.testInvalidFibonacciSeries(CalculatorServiceExceptionTest.java:26)
+Caused by: java.lang.RuntimeException: Error while generating Fibonacci series
+	at com.example.calculator.CalculatorServiceExceptionTest.lambda$testInvalidFibonacciSeries$1(CalculatorServiceExceptionTest.java:26)
+	at com.example.calculator.CalculatorServiceExceptionTest.testInvalidFibonacciSeries(CalculatorServiceExceptionTest.java:26)
+Caused by: java.lang.IllegalArgumentException: The length of the Fibonacci series must be positive
+	at com.example.calculator.CalculatorServiceExceptionTest.lambda$testInvalidFibonacciSeries$1(CalculatorServiceExceptionTest.java:26)
+	at com.example.calculator.CalculatorServiceExceptionTest.testInvalidFibonacciSeries(CalculatorServiceExceptionTest.java:26)
+
